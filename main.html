@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>jogo js</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="conteudo">
+        <div class="text_area">
+            <h1></h1>
+            <p class="text_paragrafo"></p>
+        </div>
+        <input minlength="1" maxlength="10" type="number" class="container_input" required placeholder="escolha um numero">
+        <div class="chute container__button">
+            <button onclick="verificarChute()" class="bnt" id="verificar">Chutar</button>
+            <button onclick="reiniciarjogo()" class="bnt" id="reiniciar" disabled>Reiniciar</button>
+        </div>
+        </div>
+    </div>
+   
+</body>
+<script src="jogo.js"></script>
+</html>
